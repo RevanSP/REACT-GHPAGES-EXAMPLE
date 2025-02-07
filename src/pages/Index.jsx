@@ -12,6 +12,7 @@ const Index = () => {
                     <ol className="list-decimal pl-6 text-white mb-4">
                         <li><code className="bg-[#1C232B] px-1 rounded">git clone https://github.com/RevanSP/REACT-GHPAGES-EXAMPLE.git</code></li>
                         <li><code className="bg-[#1C232B] px-1 rounded">cd REACT-GHPAGES-EXAMPLE</code></li>
+                        <li><code className="bg-[#1C232B] px-1 rounded">npm install</code></li>
                     </ol>
                 </section>
                 <section className="shadow-md rounded-lg p-6 bg-[#15181D]">
@@ -38,6 +39,8 @@ export default defineConfig({
                             <code className="bg-[#1C232B] px-1 rounded">git add .</code>
                             <li>Commit your changes with a message describing the changes:</li>
                             <code className="bg-[#1C232B] px-1 rounded">git commit -m &quot;Your commit message&quot;</code>
+                            <li>Create or rename your branch to `main` (if it’s not already named `main`):</li>
+                            <code className="bg-[#1C232B] px-1 rounded">git branch -M main</code>
                             <li>If you haven&apos;t connected your local repository to GitHub, you can do so by running:</li>
                             <code className="bg-[#1C232B] px-1 rounded">git remote add origin
                                 https://github.com/your-username/your-repository.git</code>
