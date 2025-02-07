@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png"
+    href="https://raw.githubusercontent.com/SAWARATSUKI/KawaiiLogos/refs/heads/main/React/React.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REACT GITHUB PAGES</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            secondary: '#61DBFB',
+          },
+        },
+      },
+      plugins: [
+        function ({
+          addBase,
+          theme
+        }) {
+          addBase({
+            '::-webkit-scrollbar': {
+              width: '12px',
+            },
+            '::-webkit-scrollbar-track': {
+              background: '#1B222A',
+            },
+            '::-webkit-scrollbar-thumb': {
+              background: '#15181D',
+              borderRadius: '3px',
+            },
+            '::-webkit-scrollbar-corner': {
+              background: '#1B222A',
+            },
+          });
+        },
+      ],
+    }
+  </script>
+  <script type="module" crossorigin src="/REACT-GHPAGES-EXAMPLE/assets/index-noj5MkuG.js"></script>
+  <link rel="stylesheet" crossorigin href="/REACT-GHPAGES-EXAMPLE/assets/index-CxvDz7A-.css">
+</head>
+
+<body class="font-sans text-gray-800  min-h-screen bg-[#1B222A]">
+  <div id="root"></div>
+</body>
+
+</html>
